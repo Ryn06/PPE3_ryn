@@ -1,0 +1,12 @@
+.princi{
+	font-family: Courgette;
+	font-size: 16px;
+	width: 70%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.top{text-align:left;}
+.mid{margin-top:50px;text-align: center;}
+.bot{text-align:right;margin-top:50px;margin-bottom:50px;}
+input{margin-top:1px;}

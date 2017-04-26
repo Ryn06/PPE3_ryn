@@ -1,0 +1,39 @@
+#contenu{
+	height:100vh;
+	background-image: url(../img/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#cadre{
+
+	color: #ccac00;
+	height: 520px;
+	text-align: center;
+	width: 400px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	border:1px #ccac00 outset;
+	background-image: url(../img/bg6.jpg);
+	background-size: 100% 100%;
+	background-color: white;
+	box-shadow: 5px 8px 40px 3px black;
+}
+input{
+	color:#7b9dd4;
+}
+#cadre p{font-size: 35px; font-family: "vladimir script"}
+#cadre label {font-size: 30px; font-family: "vladimir script"}
+button {
+	font-weight: lighter;
+	width: 150px;
+	height: 30px;
+	background: none;
+	border:1px #ccac00 solid;
+	border-radius: 25px;
+	color: #ccac00;
+}
+button:hover{border:2px #ccac00 solid;font-weight:bolder;}
+

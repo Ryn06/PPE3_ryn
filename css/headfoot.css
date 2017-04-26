@@ -1,0 +1,47 @@
+#menu a:hover{color: #ccac00;}
+#hearder {
+
+	position:relative;
+	height: 200px;
+	/*background:linear-gradient(-255deg,rgba(50,50,50,0.6) 30%, rgba(50,50,50,0.5) 80%),url(../img/business-header-copy-960x250.jpg);*/
+	/*background-image: url(../img/business-header-copy-960x250.jpg), linear-gradient(-255deg,rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%);*/
+	background-size:100% 80%;
+	background-repeat: no-repeat;
+	padding-right: 0px;padding-left: 0px;
+	
+	
+	
+}
+
+#slogan {
+	margin-top:10px;
+	position:absolute;
+	color:#ccac00;
+	font-family:"vladimir script" ;
+	font-size: 40px;
+	margin-left: 40%;
+}
+#slogan p{
+	margin-left: -25%;
+	
+}
+
+
+#bottom {
+	
+	/*background-image: url(../img/footer.png);*/
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: 100%;
+	background-color: black;
+	height:80px;
+	
+	border-top: 3px ridge #ccac00;
+}
+
+
+
+#menu{margin:0px;padding-right: 0px;padding-left: 0px;}
+#logohead{ position:absolute; margin-top: 55px;  left:43%;}
+body{background-color: lightgrey;}
+

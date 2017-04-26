@@ -1,0 +1,45 @@
+.contenu{
+	min-height:100vh;
+	padding-top: 10px;
+background-size: cover!important;
+background-position: center;}
+
+.projet{
+	box-shadow: 10px 10px 20px 0px #656565;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	
+	font-size: 15px;
+	font-family: Courgette;
+	border:2px white solid;
+	border-radius: 20px;
+	padding: 0px 20px 20px 20px;
+	
+	background-color: #e0e0e0;
+	overflow: visible;
+	word-wrap: break-word;
+	
+	
+}
+.ruban{margin-left:90%;margin-top:10px;}
+.titre{font-family: 'Dancing Script', cursive;color:#CCAC00;margin-top:-100px;}
+.ent{text-align: center}
+.language {
+	text-align: center;
+}
+h3{font-size:30px!important;}
+
+.prix{
+	text-align: right;
+	margin-right: 20px;
+}
+a:hover{text-decoration:none; color:black;}
+a{
+	color:black;
+}
+body{
+	background:url('../img/white-linen-paper-texture.jpg');
+	background-size: 100%;
+	background-position: fixed;
+}

@@ -1,0 +1,18 @@
+.princi{margin-top: -80px;
+	font-family: Courgette;
+	font-size: 16px;
+	width: 70%;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+.text{
+	 overflow-wrap:break-word;
+	 width:80%;
+	 margin-right:auto;
+	 margin-left:auto;
+
+}
+.top{text-align:left;}
+.mid{margin-top:50px;text-align: center;}
+.bot{text-align:right;margin-top:50px;margin-bottom:50px;}

@@ -1,0 +1,8 @@
+table a {color:#ccac00!important;}
+table a:hover{font-weight: bold; text-decoration: none;}
+.table{width: 70%;margin-left: auto;margin-right: auto;background-color: white;}
+.main {
+	background:url('../img/work2.jpg');
+	background-size: cover;
+	background-position: center;
+}

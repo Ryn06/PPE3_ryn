@@ -1,0 +1,23 @@
+.bg{
+	background:url(../img/let.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.prim{
+	background-color: rgba(255, 255, 255, 0.6);min-height: 100vh;border-radius: 10px;
+}
+.mess{font-size: 18px;word-wrap: break-word;}
+.bot{
+	margin-left:auto;margin-right:auto;
+	width: 650px;
+}
+textarea {width:650px;height:150px;margin-top:50px;}
+.bot2{text-align: center;}
+.t{color:#ccac00!important;}
+.t:hover{font-weight: bold; text-decoration: none;}
+div .mess a {color:#ccac00!important;}
+table a {color:#ccac00!important;}
+table a:hover{font-weight: bold; text-decoration: none;}
+.table{width: 70%;margin-left: auto;margin-right: auto;background-color: white;}
+caption {font-family: Courgette;color:black;font-weight: bold;font-size: 18px;}

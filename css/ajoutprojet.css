@@ -1,0 +1,50 @@
+.formulaire{
+	width:1000px!important;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border: 1px solid black;
+	padding:0px 50px 0px 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: linear-gradient(to top, rgba(238,238,238,0.9) 0%,rgba(204,204,204,0.9) 100%);
+
+}
+
+.titrelang{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	
+}
+
+.titre{padding:50px;width:500px!important;flex: 1 0 auto;}
+.description{}
+.prix{margin-top: 30px;width: 200px;margin-left: auto;margin-right: auto;}
+.language{padding: 50px;
+	
+	
+}
+textarea {min-height:150px;}
+.valide{
+
+	width: 100px;
+	font-size: 20px;
+	padding:10px;
+	border-radius: 20px;
+	border:1px black solid;
+	
+
+}
+body{
+font-family: Georgia, cursive;
+
+	background-image: url(../img/work3.jpg)!important;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	
+
+
+
+}

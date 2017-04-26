@@ -1,0 +1,62 @@
+#contenu {
+
+	height:100vh;
+	background-image: url(../img/test3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	/*background-color: white;*/
+	
+	
+}
+.champemail {/*margin-left: 400px;*/margin-top:80px;}
+.champmdp{margin-left: -51px;}
+#checkbox{
+	
+	margin-top: 10px;
+
+
+
+}
+#bouton{
+	margin-left: 250px;
+	text-align: center;
+	
+	
+	
+	/*background-color: #0180f5;*/
+	height: 30px;
+	font-weight: lighter;
+	width: 100px;
+	height: 30px;
+	background: none;
+	border:1px #ccac00 solid;
+	border-radius: 25px;
+	color: #ccac00;
+}
+#bouton:hover{border:2px #ccac00 solid;font-weight:bolder;}
+
+#inscrit{
+	margin-left:270px;
+	
+
+}
+#fenetreco{
+	/*margin-left:29%;*/
+	position:relative;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px black solid;
+	height: 300px;
+	border-radius: 20px;
+	
+
+}
+a:hover{text-decoration: none; color:#ccac00;}
+a:visited{color:none;}
+
