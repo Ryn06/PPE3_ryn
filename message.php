@@ -98,7 +98,7 @@ if(!empty($_POST)){
 			$req = $bdd->prepare($sql1);
 			$req->execute(array("adm", $idreceiver,  $_SESSION['user']['type']));
 			if($nb == 0){
-				echo "<p><br> <i> Vous n'avez pas de messages.</i> </p>";
+				echo "<div class='pasmess'><p><br> <i> Vous n'avez pas de messages.</i> </p></div>";
 			}else{
 				echo "<h1 style='color:#a80505;text-align:center'>Admin</h1> <br>";
 				while($donne=$req->fetch()){
@@ -170,7 +170,7 @@ if(!empty($_POST)){
 			$req = $bdd->prepare($sql1);
 			$req->execute(array($id, $type, $id2, $_SESSION['user']['type'], $id2, $_SESSION['user']['type'], $id, $type));
 			if($nb == 0){
-				echo "<p><br> <i> Vous n'avez pas de messages.</i> </p>";
+				echo "<div class='pasmess' ><p><br> <i> Vous n'avez pas de messages.</i> </p></div>";
 			}else{
 				while($donne=$req->fetch()){
 					if($nb<=5 && $nb>0){
@@ -301,7 +301,7 @@ if(!empty($_POST)){
 		echo "</table>";
 
 		}else{
-			echo "<div> <p> Vous avez aucun message </p> </div>";
+			echo "<div class='pasmess'> <p> Vous n'avez aucun message </p> </div>";
 		}
 
 
